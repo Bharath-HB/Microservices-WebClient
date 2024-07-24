@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: state
+  config:
+    import: optional:configserver:http://localhost:8088
